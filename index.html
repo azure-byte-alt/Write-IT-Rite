@@ -1,15 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>TicketFLO - Write IT Rite</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TicketFLO - Write IT Rite</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 48px 20px; }
+    .card { background: white; border-radius: 14px; padding: 32px; box-shadow: 0 10px 24px rgba(0,0,0,0.08); }
+    .tag { display: inline-block; padding: 6px 12px; border-radius: 999px; background: #eef2ff; font-size: 14px; }
+    h1 { margin: 14px 0 6px; font-size: 44px; }
+    h2 { margin: 0 0 14px; font-weight: 600; color: #444; }
+    p { font-size: 18px; color: #333; line-height: 1.5; }
+    ul { margin: 12px 0 0; padding-left: 18px; color: #333; }
+    li { margin: 8px 0; }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      border: none;
+      background: #111827;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover { opacity: 0.92; }
+    .footer { margin-top: 16px; font-size: 14px; color: #666; }
+  </style>
 </head>
-<body>
-    <h1>TicketFLO</h1>
-    <h2>Write IT Rite</h2>
-    <p>Improve your Help Desk ticket writing and increase your QA scores.</p>
 
-    <a href="helpdesk-practice.html">
-        <button>Start Practicing</button>
-    </a>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <span class="tag">Tier 1 Help Desk Ticket Writing Trainer</span>
+
+      <h1>TicketFLO</h1>
+      <h2>Write IT Rite.</h2>
+
+      <p>
+        A simple practice tool to help Tier 1 agents write clear, complete tickets that improve
+        documentation quality and support better QA/Wa scores.
+      </p>
+
+      <p><strong>TicketFLO helps you practice:</strong></p>
+      <ul>
+        <li>Probing questions (what, when, who, where)</li>
+        <li>Troubleshooting steps and results</li>
+        <li>Device + user details (so Tier 2 can take over fast)</li>
+        <li>Clean, professional ticket notes</li>
+      </ul>
+
+      <a class="btn" href="helpdesk-practice.html">Start Practicing</a>
+
+      <div class="footer">
+        Built for new agents, offshore agents, and anyone who wants stronger ticket writing.
+      </div>
+    </div>
+  </div>
 </body>
 </html>
